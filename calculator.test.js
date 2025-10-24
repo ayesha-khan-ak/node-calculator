@@ -1,5 +1,4 @@
-const { add, subtract, multiply, divide } = require('./calculator');
-
+const { add, subtract, multiply, divide, modulus } = require('./calculator');
 test('adds two numbers correctly', () => {
   expect(add(5, 3)).toBe(8);
 });
